@@ -1,6 +1,6 @@
 body{
     font-size: 1rem;
-    padding: 0;
+    padding: 5%;
     margin: 0;
     line-height: 1.em;
 }
@@ -16,6 +16,7 @@ nav{
     text-align: center;
     justify-content: flex-end;
     flex-direction: row;
+    
 }
 section{
     background-color: rgb(128, 165, 197);
