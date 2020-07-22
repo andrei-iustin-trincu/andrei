@@ -62,16 +62,15 @@ footer{
 }
 .navbar-brand{
     line-height: 1em;
-    height: 100%;
     font-size: 1.5em;
 position: absolute;
-padding: 1%;
+padding: 1% 4%;
 }
 nav form{
 position: absolute;
 top: 0;
 right: 0;
-margin: 10px 5px;
+margin: 1% 5%;
 z-index: 9;
 }
 nav form .form-control{
@@ -118,7 +117,7 @@ border: none;
         border-right-color: transparent;
         border-bottom-color: transparent;
         border-left-color: transparent;
-    
+    padding: .2em;
     font-size: 1em;
     line-height: 1em;
     border-radius: .25rem;
