@@ -7,6 +7,9 @@ body{
     margin: 0;
     line-height: 1.em;
 }
+*{
+    text-decoration: none;
+}
 nav{
     position: fixed;
     top: 0;
