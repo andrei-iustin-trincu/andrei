@@ -1,5 +1,8 @@
 body{
     font-size: 1rem;
+<<<<<<< HEAD
+    height: 100%;
+=======
     padding: 0;
     margin: 0;
     line-height: 1.em;
@@ -37,6 +40,7 @@ text-justify: distribute;
 
 bottom: 0;
 left: 0;
+>>>>>>> 50114185fbe761009742f9ec269b66c61f446581
 }
 footer a{
     font-size: .7em;
