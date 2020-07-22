@@ -51,11 +51,95 @@ footer a{
     padding: 10px;
     justify-self: start;
 }
-.logo{
+.navbar-brand{
     line-height: 1em;
     height: 100%;
     font-size: 1.5em;
 position: absolute;
+}
+nav form{
+position: absolute;
+top: 0;
+right: 0;
+margin: 10px 5px;
+z-index: 9;
+}
+nav form .form-control{
+    width: 65px;
+    position: absolute;
+    right: 25px;
+    z-index: -1;
+    transition: all ease-in-out 5ms;
+border: none;
+}
+
+.form-control:hover{
+    width: 100px;
+    transition: all ease-in-out 5ms;
+}
+.form-control:focus{
+    width: 100px;
+    transition: all ease-in-out 5ms;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+[type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: white;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    
+    font-size: 1em;
+    line-height: 1em;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+[type="button"], [type="reset"], [type="submit"], button {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button {
+    border-radius: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.outline-success {
+    color: #28a745;
+    border-color: #28a745;
 }
 .hamburger-wrapper{
     width: 30px;
