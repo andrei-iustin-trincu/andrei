@@ -1,6 +1,6 @@
 body{
     font-size: 1rem;
-    padding: 5%;
+    padding: 0;
     margin: 0;
     line-height: 1.em;
 }
@@ -24,12 +24,16 @@ section{
     padding: 10px;
 }
 footer{
+margin-top: 50px;
     height: 100px;
     width: 100%;
 display: flex;
 flex-direction: row;
 text-align: center;
 text-justify: distribute;
+
+bottom: 0;
+left: 0;
 }
 footer a{
     font-size: .7em;
