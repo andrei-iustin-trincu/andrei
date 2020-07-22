@@ -20,6 +20,24 @@ footer a{
 .h70{
     height: 70vh;
 }
+.h60{
+    height: 60vh;
+}
+.h50{
+    height: 50vh;
+}
+.h40{
+    height: 40vh;
+}
+.h30{
+    height: 30vh;
+}
+.h20{
+    height: 20vh;
+}
+.h10{
+    height: 10vh;
+}
 .black{
     background-color: black;
 }
