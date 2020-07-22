@@ -44,7 +44,14 @@ footer a{
 .black{
     background-color: black;
 }
-
+.justify-content-between{
+    justify-content: space-between;
+}
+.navbar{
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 30px;
+}
 .nav-logo-wrapper{
     left: 10px;
     position: absolute;
